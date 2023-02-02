@@ -1,0 +1,303 @@
+
+body {
+  background-image: url('https://img.freepik.com/premium-photo/vintage-old-looking-coffee-cup-stain-background_231311-2529.jpg?w=2000');
+  height: 3000px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(-45deg, #e7ff5c, #d0b274, #d1a70f, #f2cd76);
+}
+
+.head {
+  text-align: center;
+}
+
+
+li:hover {
+  cursor: pointer;
+}
+
+table, th{
+  border: 1px solid black;
+}
+table {
+  padding: 5px 5px 5px 5px;
+  border-width: 2px;
+  border-radius: 5px;
+  background-image: url('https://img.freepik.com/free-photo/soft-plaster-texture_1194-8904.jpg?w=2000&t=st=1674320532~exp=1674321132~hmac=2af3b59d960e759cbe55489aad56eba212e6a830a2d0f7c6f4c4c9b746d412e3');
+}
+
+th {
+  font-size: x-large;
+  border: 1px solid black;
+  box-shadow: 2px 4px 2px 2px grey;
+  background: linear-gradient(-45deg, #e4efa7, #d0b274, #d1a70f, #f9efd7);
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
+
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+#header {
+  text-align: center;
+  font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3:hover {
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  column-gap: 5px;
+}
+.d-none {
+  display: none;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.btn_refresh {
+  font-size: large;
+  border: 1px solid black;
+  box-shadow: 2px 4px 2px 2px grey;
+  background: linear-gradient(-45deg, #e6f0be, #d0b274, #d1a70f, #7b611e);
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
+
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  width: 110px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.btn_reset {
+  font-size: large;
+  border: 1px solid black;
+  box-shadow: 2px 4px 2px 2px grey;
+  background: linear-gradient(-45deg, #eecd39, #f68484, #ff6868, #f94949);
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
+
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  width: 110px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.btn_add {
+  font-size: large;
+  border: 1px solid black;
+  box-shadow: 2px 4px 2px 2px grey;
+  background: linear-gradient(-45deg, #e4efa7, #d0b274, #d1a70f, #7b611e);
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
+
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  width: 110px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+
+.searchBar {
+  font-size: large;
+  border: 1px solid black;
+  box-shadow: 2px 4px 2px 2px grey;
+  background: linear-gradient(-45deg, #d1ab03, #a56e01, #b0a272, #c4930d);
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
+
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+  padding-left: 10px;
+  font-size: large;
+  height: 35px;
+  width: 210px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid black;
+}
+
+.btn_search {
+  font-size: medium;
+  border: 1px solid black;
+  box-shadow: 2px 4px 2px 2px grey;
+  background: linear-gradient(-45deg, #e4efa7, #d0b274, #d1a70f, #7b611e);
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
+
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+  margin-left: -6px;
+  width: 60px;
+  height: 39px;
+  border: 1px solid black;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: rgb(107, 205, 254);
+  
+}
+
+.icon {
+  width: 17%;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+}
+
+
+@media all and (max-width: 600px) {
+  td {
+    width: 100%;
+    display: block;
+  }
+  th {
+    display: none;
+  }
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  font-size: large;
+  border: 1px solid black;
+  box-shadow: 2px 4px 2px 2px grey;
+  background: linear-gradient(-45deg, #e4efa7, #d0b274, #d1a70f, #7b611e);
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
+
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+  text-align: center;
+  font-size: larger;
+  background-color: #fefefe;
+  margin: 5% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input[type="url"], #image, #author, #alt, #tags, #description,  select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#submit {
+  width: 100%;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.assignment {
+  margin-top: 3px;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  height: 200px;
+  background: linear-gradient(-45deg, #e4efa7, #d0b274, #d1a70f, #7b611e);
+  display: flex;
+  justify-content: center;
+  
+}
+
